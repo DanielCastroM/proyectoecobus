@@ -6,6 +6,19 @@ body {
     overflow-x: hidden;
 }
 
+.panel {
+    box-shadow: 0 1px 1px transparent!important;
+}
+
+.panel_default {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+
 
 /*===================MENU==========================*/
 
@@ -209,6 +222,26 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.seccion_titulo {
+    margin: 0 0 10px;
+    margin-top: 10px;
+}
+
+.separador {
+    width: 120px;
+    margin: 20px 0;
+    height: 2px;
+    background-color: red;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
 }
 
 
