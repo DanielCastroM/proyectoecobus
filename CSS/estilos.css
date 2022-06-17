@@ -244,6 +244,14 @@ p {
     text-align: center;
 }
 
+.mb-sm {
+    margin-bottom: 10px !important;
+}
+
+.mt-sm {
+    margin-top: 10px !important;
+}
+
 
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
