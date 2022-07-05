@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../SCSS/estilos.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
@@ -46,9 +46,7 @@
                     <li class="nav-item ">
                         <a class="nav-link active " aria-current="page" href="../Paginas/conductores.html">Conductores</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link active " aria-current="page" href="../Paginas/clientes.html">Clientes</a>
-                    </li>
+
                     <li class="nav-item ">
                         <a class="nav-link active " aria-current="page" href="../Paginas/nosotros.html">Nosotros</a>
                     </li>
@@ -60,5 +58,75 @@
         </div>
     </nav>
 
+    <!-- SLIDER DE IMAGENES-->
 
+
+    <div id="carousel" class="carousel slide " data-bs-ride="carousel ">
+        <div class="carousel-inner ">
+            <div class="carousel-item active " data-bs-interval="3000 ">
+                <img src="../Recursos/imagenes/CONDUCTOR4.jpg " class="d-block w-100 " alt="CONDUCTOR ECOBUS 1 ">
+            </div>
+
+
+            <div class="carousel-item " data-bs-interval="3000 ">
+                <img src="../Recursos/imagenes/CONDUCTOR 2.jpg " class="d-block w-100 " alt="CONDUCTOR ECOBUS 2 ">
+            </div>
+
+
+            <div class="carousel-item " data-bs-interval="3000 ">
+                <img src="../Recursos/imagenes/CONDUCTOR 3.jpg " class="d-block w-100 " alt="CONDUCTOR ECOBUS 3 ">
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev " type="button " data-bs-target="#carousel " data-bs-slide="prev ">
+          <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+          <span class="visually-hidden ">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button " data-bs-target="#carousel " data-bs-slide="next ">
+          <span class="carousel-control-next-icon " aria-hidden="true "></span>
+          <span class="visually-hidden ">Next</span>
+        </button>
+    </div>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2 class="negocio ">NUESTROS CONDUCTORES</h2>
+                <hr>
+                <p>Transportes ECOBUS es una de las empresas de transporte terrestre más grandes del Perú, comprometidos con mejorar, nuestros conductores tienen </p>
+
+                <div class="wrapper-grid ">
+                    <div class="banner-img ">
+                        <img src='https://www.ittsabus.com/resources/img/ico01.svg' alt='profile image' class="profile-img ">
+                        <h3>Experiencia</h3>
+                        <p class="description ">Extensa experiencia laboral</p>
+                    </div>
+                    <div class="banner-img ">
+                        <img src='https://www.ittsabus.com/resources/img/ico02.svg' alt='profile image' class="profile-img ">
+                        <h3>Compromiso</h3>
+                        <p class="description ">Comprometidos a cuidar a las personas</p>
+                    </div>
+                    <div class="banner-img ">
+                        <img src='https://www.ittsabus.com/resources/img/ico03.svg' alt='profile image' class="profile-img ">
+                        <h3>Puntualidad</h3>
+                        <p class="description ">Siempre 30 minutos antes</p>
+                    </div>
+                    <div class="banner-img ">
+                        <img src='https://www.ittsabus.com/resources/img/ico04.svg' alt='profile image' class="profile-img ">
+                        <h3>Atentos</h3>
+                        <p class="description ">Evita distracciones en la ruta</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <div>
+        <footer style="color:wheat">TODOS LOS DERECHOS RESERVADOS POR DANIEL CASTRO</footer>
+    </div>
 </body>
+
+</html>
