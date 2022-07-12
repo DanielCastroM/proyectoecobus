@@ -27,7 +27,7 @@
     }
     
     .carousel-inner {
-        max-height: 39rem !important;
+        max-height: 40rem
     }
     
     #img-equipo {
@@ -45,7 +45,7 @@
     }
     
     .wrapper-local {
-        width: $local;
+        width: 50%;
         margin-left: 100px;
         padding-top: 150px;
     }
@@ -130,11 +130,26 @@
         width: 50px;
         height: 50px;
         float: left;
-        border-radius: $radio;
+        border-radius: 70px;
         background-color: black;
         margin: 10px;
         margin-top: 5px;
         position: inherit;
+    }
+    
+    .ecobusfooter {
+        width: 100px;
+        height: 100px;
+        float: left;
+        border-radius: 70px;
+        background-color: black;
+        margin: 10px;
+        margin-top: 5px;
+        position: inherit;
+    }
+    
+    .textofooter {
+        color: white;
     }
     
     .textecobus {
@@ -153,7 +168,7 @@
     
     .hover03 div:hover img {
         -webkit-transform: scale(1);
-        transform: scale(1.5);
+        transform: scale(1.1);
     }
     /*=========================NAV BAR MODIFICACIÓN DE TEXTO================================*/
     
@@ -186,7 +201,6 @@
     
     div {
         margin-top: 10px;
-        font-weight: bold;
     }
     
     .span_ciudades {
@@ -231,9 +245,18 @@
         margin-top: 10px !important;
     }
     
-    .contacto_texto {
-        text-align: $ju;
+    .page-header {
+        background-color: #171717;
+        border-bottom: 5px solid #CCC;
+        border-top: 5px solid #384045;
+        margin: 0 0 35px 0;
+        min-height: 50px;
+        padding: 20px 0;
+        position: relative;
+        text-align: left;
     }
+    
+    .contacto_texto {}
     /*OPERACIONES*/
     
     $radio: 70px;
@@ -260,6 +283,12 @@
         img {
             width: 90%;
             margin: auto;
+        }
+    }
+    
+    @media(max-width:1130px) {
+        h1 {
+            font-size: 20px;
         }
     }
     /*=========================MEDIA QUERIES PANTALLA SM================================*/
@@ -309,5 +338,8 @@
         img {
             width: 90%;
             margin: auto;
+        }
+        .ecobusfooter {
+            margin-left: 180px;
         }
     }
