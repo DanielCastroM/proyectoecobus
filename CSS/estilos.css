@@ -10128,7 +10128,7 @@ body {
 }
 
 .carousel-inner {
-  max-height: 40rem;
+  max-height: 39rem !important;
 }
 
 #img-equipo {
@@ -10151,7 +10151,6 @@ body {
   padding-top: 150px;
 }
 
-/*===========================SECCION EQUIPO MIAMI==================================*/
 #numeros-local {
   margin: 0 !important;
   padding: 0 !important;
@@ -10292,10 +10291,6 @@ footer p {
   font-weight: bold;
 }
 
-div {
-  margin-top: 10px;
-}
-
 .span_ciudades {
   font-size: 20px;
   padding: 10px;
@@ -10349,7 +10344,7 @@ p {
   text-align: left;
 }
 
-/*OPERACIONES*/
+/*------OPERACIONES-------*/
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 @media (max-width: 1340px) {
   #intro,
@@ -10374,6 +10369,11 @@ p {
 @media (max-width: 1130px) {
   h1, .h1 {
     font-size: 20px;
+  }
+}
+@media (max-width: 990px) {
+  .navbar-nav a {
+    font-size: 0.9rem;
   }
 }
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
@@ -10402,6 +10402,9 @@ p {
   #bg-contactos {
     top: -120px;
   }
+  .banner-img {
+    text-align: center;
+  }
 }
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
 @media (max-width: 576px) {
@@ -10422,6 +10425,9 @@ p {
   }
   .ecobusfooter {
     margin-left: 180px;
+  }
+  .banner-img {
+    text-align: center;
   }
 }
 
